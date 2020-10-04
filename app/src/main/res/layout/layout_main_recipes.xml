@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/recycle_desc"
+            android:layout_width="272dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="128dp"
+            android:ems="10"
+            android:fontFamily="sans-serif-medium"
+            android:inputType="textMultiLine"
+            android:text="InsertItemDescription"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorMale"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/recycle_preptime" />
+
+        <TextView
+            android:id="@+id/recycle_preptime"
+            android:layout_width="272dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="128dp"
+            android:ems="10"
+            android:fontFamily="sans-serif-medium"
+            android:inputType="textMultiLine"
+            android:text="InsertPreptime"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorMale"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/recycle_name" />
+
+        <ImageView
+            android:id="@+id/tmp_image"
+            android:layout_width="109dp"
+            android:layout_height="109dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="9dp"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/tmp_image" />
+
+        <TextView
+            android:id="@+id/recycle_name"
+            android:layout_width="272dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="128dp"
+            android:layout_marginTop="24dp"
+            android:inputType="textNoSuggestions"
+            android:text="InsertRecipeTitleHere"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</RelativeLayout>

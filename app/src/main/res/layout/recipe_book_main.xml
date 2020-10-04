@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cns_lay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="220dp"
+    tools:context=".Database"
+    tools:layout_editor_absoluteY="81dp">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_recipes"
+        android:layout_width="413dp"
+        android:layout_height="528dp"
+        app:layout_constraintBottom_toTopOf="@+id/addNewRecipe"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_recipe_toolbar" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/main_recipe_toolbar"
+        android:layout_width="415dp"
+        android:layout_height="72dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/settingbutton"
+        android:layout_width="30dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/settings" />
+
+    <Button
+        android:id="@+id/addNewRecipe"
+        android:layout_width="414dp"
+        android:layout_height="68dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/add_a_new_recipe"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/edit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:layout_marginStart="16dp"
+        android:background="@android:color/transparent"
+        android:text="EDIT"
+        android:textAlignment="textStart"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

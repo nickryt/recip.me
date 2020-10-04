@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_enter_info"
+            android:layout_width="415dp"
+            android:layout_height="72dp"
+            android:layout_marginBottom="20dp"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:layout_constraintBottom_toTopOf="@+id/enter_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/header_title"
+            android:layout_width="411dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="16dp"
+            android:text="Create A New Profile"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/name_banner"
+            android:layout_width="332dp"
+            android:layout_height="58dp"
+            android:layout_marginStart="39dp"
+            android:layout_marginTop="84dp"
+            android:layout_marginEnd="40dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/bannerfield"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/enter_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="84dp"
+            android:text="Name"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/email_banner1"
+            android:layout_width="332dp"
+            android:layout_height="58dp"
+            android:layout_marginStart="39dp"
+            android:layout_marginTop="156dp"
+            android:layout_marginEnd="40dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/bannerfield"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/enter_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="156dp"
+            android:layout_marginEnd="304dp"
+            android:text="E-Mail"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/password_banner"
+            android:layout_width="332dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="39dp"
+            android:layout_marginTop="235dp"
+            android:layout_marginEnd="40dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/bannerfield"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/enter_password"
+            android:layout_width="89dp"
+            android:layout_height="26dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="235dp"
+            android:layout_marginEnd="304dp"
+            android:text="Password"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/password_hint"
+            android:layout_width="412dp"
+            android:layout_height="18dp"
+            android:layout_marginTop="290dp"
+            android:text="(Passwords must be atleast six characters long)"
+            android:textAlignment="center"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/experience__banner"
+            android:layout_width="332dp"
+            android:layout_height="228dp"
+            android:layout_marginStart="39dp"
+            android:layout_marginTop="316dp"
+            android:layout_marginEnd="40dp"
+            android:layout_weight="1"
+            android:scaleType="fitStart"
+            android:src="@drawable/bannerfieldbig"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/enter_name_text"
+            android:layout_width="317dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="104dp"
+            android:layout_marginEnd="41dp"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:fontFamily="sans-serif-black"
+            android:inputType="textPersonName"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/enter_email_text"
+            android:layout_width="317dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="176dp"
+            android:layout_marginEnd="41dp"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:fontFamily="sans-serif-black"
+            android:inputType="textWebEmailAddress"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/enter_password_text"
+            android:layout_width="317dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="255dp"
+            android:layout_marginEnd="41dp"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:fontFamily="sans-serif-black"
+            android:inputType="textPassword"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/enter_cook_desc"
+            android:layout_width="317dp"
+            android:layout_height="196dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="340dp"
+            android:layout_marginEnd="41dp"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:fontFamily="sans-serif-black"
+            android:gravity="top|left"
+            android:inputType="textMultiLine"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/enter_experience"
+            android:layout_width="291dp"
+            android:layout_height="26dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="316dp"
+            android:layout_marginEnd="304dp"
+            android:text="Cooking Experience Description"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/space"
+            android:layout_width="411dp"
+            android:layout_height="85dp"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/lol_blank" />
+
+        <Button
+            android:id="@+id/submit_info"
+            android:layout_width="414dp"
+            android:layout_height="68dp"
+            android:background="@color/submit"
+            android:text="SUBMIT"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageButton
+            android:id="@+id/create_backbutton"
+            android:layout_width="37dp"
+            android:layout_height="67dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/backbar" />
+
+    </android.support.constraint.ConstraintLayout>
+</LinearLayout>

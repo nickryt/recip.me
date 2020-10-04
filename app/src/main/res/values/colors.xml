@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D02120</color>
+    <color name="colorPrimaryDark">#D02120</color>
+    <color name="colorAccent">#151515</color>
+    <color name="tabSelected">#232323</color>
+    <color name="submit">#00CE75</color>
+
+    <color name="colorMale">#505153</color>
+    <color name="colorFemale">#fc58b7</color>
+</resources>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cnu_linlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/cnu_conslayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="336dp"
+            android:layout_height="305dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/mainlogo" />
+
+        <Button
+            android:id="@+id/donthaveaccount"
+            android:layout_width="197dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="472dp"
+            android:background="@android:color/transparent"
+            android:backgroundTint="@android:color/transparent"
+            android:text="I Don't Have An Account"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/colorMale"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/bg_1"
+            android:layout_width="411dp"
+            android:layout_height="119dp"
+            android:layout_marginTop="284dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/login_hidden_box" />
+
+        <ImageView
+            android:id="@+id/bg_"
+            android:layout_width="411dp"
+            android:layout_height="119dp"
+            android:layout_marginTop="384dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/login_hidden_box" />
+
+        <EditText
+            android:id="@+id/enter_email"
+            android:layout_width="315dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="336dp"
+            android:layout_marginEnd="36dp"
+            android:background="@android:color/transparent"
+            android:editable="true"
+            android:ems="10"
+            android:nextFocusForward="@+id/enter_pass"
+            android:fontFamily="sans-serif-medium"
+            android:inputType="textEmailAddress"
+            android:selectAllOnFocus="false"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.486"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/enter_pass"
+            android:layout_width="314dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="437dp"
+            android:layout_marginEnd="73dp"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:fontFamily="sans-serif-medium"
+            android:inputType="textPassword"
+            android:selectAllOnFocus="false"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/log_in"
+            android:layout_width="414dp"
+            android:layout_height="68dp"
+            android:layout_weight="1"
+            android:background="@color/submit"
+            android:text="LOG IN"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="142dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="412dp"
+            android:fontFamily="sans-serif-black"
+            android:text="PASSWORD"
+            android:textAlignment="center"
+            android:textColor="@color/colorMale"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="312dp"
+            android:fontFamily="sans-serif-black"
+            android:text="EMAIL"
+            android:textAlignment="center"
+            android:textColor="@color/colorMale"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+</LinearLayout>

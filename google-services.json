@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "266685075774",
+    "firebase_url": "https://recipmebcc.firebaseio.com",
+    "project_id": "recipmebcc",
+    "storage_bucket": "recipmebcc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:266685075774:android:7b9efa4ea085124b",
+        "android_client_info": {
+          "package_name": "com.example.recipme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "266685075774-fon1iji4jp69v4rugp6um36roeitmam5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.recipme",
+            "certificate_hash": "61b9d2037d6d6c1c4927a03a3ff685141ef3dfdc"
+          }
+        },
+        {
+          "client_id": "266685075774-omqoton3fes1tdjninjg3tm04mvps0bf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdc0Wid6SdmPivB-8KLprVrC3Z-hcpUWM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "266685075774-omqoton3fes1tdjninjg3tm04mvps0bf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

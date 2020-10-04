@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.recipme">
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/mainlogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".Splash_Screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Recipe_Book_Main"
+            android:label="My Recipes">
+        </activity>
+
+        <activity
+            android:name=".Recipe_Book_Add_Activity"
+            android:label="Add A New Recipe">
+        </activity>
+
+        <activity
+            android:name=".Settings_Activity"
+            android:label="Settings">
+        </activity>
+
+        <activity
+            android:name=".Create_Account_Activity"
+            android:label="Create A New Account">
+        </activity>
+
+        <activity
+            android:name=".Log_In_Activity"
+            android:label="Create A New Account">
+        </activity>
+
+        <activity
+            android:name=".Specific_Recipe_Item"
+            android:label="Create A New Account">
+        </activity>
+
+
+    </application>
+
+</manifest>
