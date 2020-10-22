@@ -1,6 +1,6 @@
 # recip.me 🍪
-This project is a recipe manager app for Android devices.
-I started this as a side project to expand my knowledge on app development and non-relational databases. I chose to use Google Firebase's Realtime Database and Google Firebase Storage to store user information, recipes, and images.
+This project is a recipe storage application for Android devices.T
+This was started as a side project to expand my knowledge in app development and non-relational databases. I chose to use Google Firebase's Realtime Database and Google Firebase Storage to store user information, recipes, and images. This app was not published to the Google Play store.
 
 ### Screenshots
 <p align="center">
